@@ -1,0 +1,13 @@
+services:
+  jupyter:
+    build: 
+      context: ./jupyter
+    container_name: jupyter_especializacion
+    volumes:
+      - ./jupyter:/home/jovyan
+    stdin_open: true
+    tty: true
+    environment:
+      - PYTHONUNBUFFERED=1
+    ports:
+      - "8888:8888"

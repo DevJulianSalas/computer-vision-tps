@@ -1,0 +1,15 @@
+pandas===2.2.2
+scikit-learn==1.5.2
+matplotlib==3.9.2
+seaborn==0.13.2
+category_encoders==2.6.3
+xgboost==2.1.1
+mlxtend==0.23.1
+charset-normalizer==3.3.2
+opencv-contrib-python-headless==4.10.0.84
+#fastai==2.7.12
+-f https://download.pytorch.org/whl/cpu
+torch
+torchvision
+torchaudio
+pillow==11.0.0

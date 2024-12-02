@@ -1,0 +1,8 @@
+**/.cache/*
+**/.config/*
+**/.npm/*
+**/.local/*
+**/.ipynb_checkpoints/*
+**/.jupyter/*
+**/.ipython/*
+.DS_store
