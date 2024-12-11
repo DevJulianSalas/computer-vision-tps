@@ -13,3 +13,4 @@ torch
 torchvision
 torchaudio
 pillow==11.0.0
+imutils
